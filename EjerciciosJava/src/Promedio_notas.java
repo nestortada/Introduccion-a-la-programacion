@@ -47,7 +47,7 @@ public class Promedio_notas {
         else{
             JOptionPane.showMessageDialog(null, "No reprobo ningun estudiante");
         }
-        JOptionPane.showMessageDialog(null, "La mejor nota es del esrudiante # "+ mayore);
+        JOptionPane.showMessageDialog(null, "La mejor nota es del esrudiante # "+ mayore +1 );
 
 
     }

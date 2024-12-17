@@ -10,7 +10,7 @@ public class Ejercicio_en_clase {
         peor_e="pepe";
         for(rep=0;rep<6;rep++){
             nombres_e= JOptionPane.showInputDialog("Digite el nombre estudiante #"+(rep+1));
-            num_e=Float.parseFloat(JOptionPane.showInputDialog("digite la nota de"+nombres_e));
+            num_e=Float.parseFloat(JOptionPane.showInputDialog("digite la nota de "+nombres_e));
             if(num_e>notamax){
                 notamax=num_e;
                 mejor_e=nombres_e;
@@ -21,8 +21,8 @@ public class Ejercicio_en_clase {
             }
 
         }
-        JOptionPane.showMessageDialog(null,"El mejor estudiante es"+mejor_e+"con "+notamax);
-        JOptionPane.showMessageDialog(null,"el peor estudiante es "+peor_e+"con "+notamin);
+        JOptionPane.showMessageDialog(null,"El mejor estudiante es "+mejor_e+" con "+notamax);
+        JOptionPane.showMessageDialog(null,"el peor estudiante es "+peor_e+" con "+notamin);
 
     }
 }
