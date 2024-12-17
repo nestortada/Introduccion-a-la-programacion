@@ -24,14 +24,14 @@ def creacion():
     print(acum )
     return tablero
 def juego(tablero ):
-    print("Elije una fila  para apagar para cambiar el simbolo ")
+    print("Elije una fila para cambiar el simbolo ")
     fila = int(input())
     fila = fila -1
     while fila<0 or fila>5:
         print("Este valor es invalido diga un numero de 1 a 5  ")
         fila = int(input())
         fila = fila -1
-    print("Elije una columna para cambiar de signo ")
+    print("Elije una columna para cambiar el simbolo ")
     columna = int(input())
     columna = columna-1
     while columna<0 or columna>5:

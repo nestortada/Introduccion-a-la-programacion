@@ -2,16 +2,16 @@ import math
 print("Funciones matematicas ")
 opcion = 2
 while opcion != 0:
-    print("Diga 1 si quiere valores de Pi"
-        "Diga 2 para el valor de E;"
-        "Diga 3 para el valor absoluto; "
-        "Diga 4 para conversion de radianes a grados; "
-        "Diga 5 para calcular funciones trigonometricas;"
-        "Diga 6 para calcular raiz de un numero;"
-        "Diga 7 para el valor de una potencia"
-        "Diga 8 para redondiar un numero;"
-        "Diga 9 para calcular hipotenusa "
-        "Diga 0 si quiere salir")
+    print("""Diga 1 si quiere valores de Pi
+        Diga 2 para el valor de E;
+        Diga 3 para el valor absoluto; 
+        Diga 4 para conversion de radianes a grados; 
+        Diga 5 para calcular funciones trigonometricas;
+        Diga 6 para calcular raiz de un numero;
+        Diga 7 para el valor de una potencia
+        Diga 8 para redondiar un numero;
+        Diga 9 para calcular hipotenusa 
+        Diga 0 si quiere salir""")
     opcion=int(input())
     while opcion<0 or opcion>9:
         print("Diaga un valor de 0 a 10")

@@ -1,9 +1,9 @@
 
 def menu():
-    print("Digite la opcion 1 para incrementar wl ahorro"
-          "Digete 2 para sacar el ahorro "
-          "Digite 3 para consultar el ahorro"
-          "Digite 4 para terminar el programa")
+    print("""Digite la opcion 1 para incrementar el ahorro
+          Digete 2 para sacar el ahorro 
+          Digite 3 para consultar el ahorro
+          Digite 4 para terminar el programa""")
     opcion=int(input())
     return opcion
 def ahorro ():
@@ -12,7 +12,6 @@ def ahorro ():
     if incrementar<100:
         print("Respuesta invalida debe ser mayor a 100 peses")
         incrementar=0
-        return incrementar
     return incrementar
 def sacar(incrementar):
     if incrementar>0:
